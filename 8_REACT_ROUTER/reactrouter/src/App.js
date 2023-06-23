@@ -26,7 +26,7 @@ function App() {
         <SearchForm />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
           {/* 6 - nested route */}
           <Route path="/products/:id/info" element={<Info />} />
           {/* 4 - rota dinamica */}
